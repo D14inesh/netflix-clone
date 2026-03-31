@@ -1,0 +1,46 @@
+.titlecards{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.title-cards h2{
+    margin-bottom: 8px;
+}
+.card-list{
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+}
+.card-list::-webkit-scrollbar{
+    display: none;
+}
+.card-list img{
+    width: 240px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.card-list .card{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.card-list .card p{
+    font-size: 13px;
+    color: #ffffffcc;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 240px;
+    margin: 0;
+}
+@media (max-width:500px){
+    .title-cards h2{
+        font-size: 15px;
+    }
+    .card-list img{
+        width: 165px;
+    }
+    .card-list p{
+        font-size: 10px;
+    }
+}
