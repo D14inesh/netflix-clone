@@ -2,6 +2,7 @@
 
 A dynamic, full-stack Netflix clone built with React, Vite, Node.js, Express, and MongoDB. This application features a fully responsive UI, secure user authentication with Firebase, and a custom backend for serving dynamic movie and trailer data.
 
+
 ## 🚀 Features
 
 *   **User Authentication:** Secure Sign Up, Log In, and Log Out functionality using Firebase Authentication (Email/Password).
